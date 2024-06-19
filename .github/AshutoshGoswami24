@@ -25,7 +25,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/SudoR2spr/text-leech-bot/blob/main/AshutoshGoswami24\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/sw1gg3r/colab-txt/blob/main/sw1gg3r\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -42,12 +42,12 @@
         "from IPython.display import clear_output\n",
         "\n",
         "#@title <h1><B><font color=red>𝗧𝗘𝗫𝗧-𝗟𝗘𝗘𝗖𝗛-𝗕𝗢𝗧</B>\n",
-        "# @markdown <div><center><a href=\"https://github.com/SudoR2spr/text-leech-bot/graphs/contributors\"><img height=\"200\"  src=\"https://opengraph.githubassets.com/niszjzjrdlws31z4hurrzabavate8t0g/SudoR2spr/text-leech-bot\"></center></div>\n",
+        "# @markdown <div><center><a href=\"https://github.com/sw1gg3r/colab-txt/graphs/contributors\"><img height=\"200\"  src=\"https://opengraph.githubassets.com/niszjzjrdlws31z4hurrzabavate8t0g/SudoR2spr/text-leech-bot\"></center></div>\n",
         "# @markdown <br><center><h2><strong><font color=red>𝗧𝗘𝗫𝗧-𝗟𝗘𝗘𝗖𝗛-𝗕𝗢𝗧</strong></h2></center>\n",
         "\n",
         "\n",
         "#@markdown <font color=ORANGE> Please enter the GitHub repository URL:\n",
-        "GITHUB_URL = \"https://github.com/SudoR2spr/text-leech-bot\"  #@param {type:\"string\"}\n",
+        "GITHUB_URL = \"https://github.com/sw1gg3r/colab-txt\"  #@param {type:\"string\"}\n",
         "\n",
         "# Determine base directory based on environment\n",
         "base_dir = './repo'  # Save repo in ./repo directory relative to current directory\n",
@@ -110,6 +110,9 @@
         "\n",
         "BOT_TOKEN = \"\"  #@param {type:\"string\"}\n",
         "os.environ['BOT_TOKEN'] = BOT_TOKEN\n",
+        "\n",
+        "SUDO_GROUP = \"\"  #@param {type:\"string\"}\n",
+        "os.environ['SUDO_GROUP'] = SUDO_GROUP\n",
         "\n",
         "clear_output()\n",
         "\n",
