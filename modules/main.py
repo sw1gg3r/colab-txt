@@ -59,7 +59,7 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
-@bot.on_message(filters.command("stop") & filters.user(admins))
+@bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
     await m.reply_text("Restarted ✅", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
@@ -72,7 +72,7 @@ async def start(client,message):
 	#reply_markup=InlineKeyboardMarkup(
 	# [[ InlineKeyboardButton("✘ 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🤖" ,url="https://t.me/ExtractorTxt") ], [InlineKeyboardButton("✘ 𝐎𝐰𝐧𝐞𝐫 💌", url="https://t.me/TgSachivJi") ]  ]))
 
-@bot.on_message(filters.command(["xxx"]) & filters.user(admins))
+@bot.on_message(filters.command(["xxx"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(f"Now Send Me Your **TXT** File & Follow Bot Instructions.")
     input: Message = await bot.listen(editable.chat.id)
